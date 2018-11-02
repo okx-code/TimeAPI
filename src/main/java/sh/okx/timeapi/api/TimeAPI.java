@@ -85,19 +85,19 @@ public class TimeAPI {
     }
 
 
-    public double getNanoseconds() {
+    public long getNanoseconds() {
         return TimeUnit.SECONDS.toNanos(seconds);
     }
 
-    public double getMicroseconds() {
+    public long getMicroseconds() {
         return TimeUnit.SECONDS.toMicros(seconds);
     }
 
-    public double getMilliseconds() {
+    public long getMilliseconds() {
         return TimeUnit.SECONDS.toMillis(seconds);
     }
 
-    public double getSeconds() {
+    public long getSeconds() {
         return seconds;
     }
 
